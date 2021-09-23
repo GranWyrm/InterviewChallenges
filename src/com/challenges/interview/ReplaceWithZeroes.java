@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main {
+public class ReplaceWithZeroes {
 
     public static void main(String[] args) {
         final int N = 4;
@@ -14,7 +14,7 @@ public class Main {
 
         printMatrix(array);
 
-        substituteZeroes(array);
+        replaceWithZeroes(array);
 
 
 
@@ -26,7 +26,7 @@ public class Main {
         }
     }
 
-    private static void substituteZeroes(int[][] array) {
+    private static void replaceWithZeroes(int[][] array) {
         ArrayList<Integer> rowsToZero = new ArrayList<>();
         ArrayList<Integer> columnsToZero = new ArrayList<>();
 
