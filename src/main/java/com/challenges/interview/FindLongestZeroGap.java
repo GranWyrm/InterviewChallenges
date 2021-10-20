@@ -3,14 +3,8 @@ package com.challenges.interview;
 import java.util.stream.IntStream;
 // BinaryGap Codility solution
 public class FindLongestZeroGap {
-    public static void main(String[] args) {
-        solution(1041);
-        solution(328);
-        solution(42);
-        solution(1376796946);
-    }
 
-    public static int solution(int N) {
+    public int solution(int N) {
         // write your code in Java SE 8
         int answer;
         String binary = Integer.toBinaryString(N);
